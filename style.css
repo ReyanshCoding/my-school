@@ -1,0 +1,99 @@
+html{
+    scroll-behavior:smooth;
+    }
+   .nav.navbar-nav.navbar-right li a, .navbar-brand{
+       color: yellow;
+       font-weight:bold;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 20px;
+   }
+marquee{
+    background-color: aliceblue;
+    width: 100%;
+    height:40px;
+    color:blue;
+    padding-top: 5px;
+    font-size:20px;
+}
+#mycarousel {
+    background-color: white;
+  }
+  #mycarousel img {
+height: 500px;
+    width: 100%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: grey;
+  }
+  .carousel-inner h4 {
+    margin-bottom: 15px;
+    padding-top: 8px;
+    color: #1a237e;
+    font-size: 30px;
+    font-family: "Rampart One", cursive;
+  }  
+  .pic{
+    float: left;
+    width:33.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333%;
+  padding: 10px;
+  border:5px solid gray;
+  }
+  .pic img{
+    width:100%;
+    height: 400px;
+    }
+    .dropdown{
+      font-size: 20px;
+      padding: 6px 20px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      display:inline-block ;
+      background-color: darkgreen;
+      color: yellow;
+     width:100%;
+    }
+     .dropdown i{
+       float: right;
+     }
+     .glyphicon-film{
+       padding-right: 10px;
+     }
+      .book{
+        cursor: pointer;
+      }
+      .book hr{
+        margin-bottom: 10px;
+      }
+      .modal-content{
+        margin-top: 100px;
+      }
+      .img_modal{ 
+      display: inline-block;
+      }
+      .p_modal{
+        margin-top:10px;
+      }
+.modal-body{
+  text-align: center;
+}
+    #im{
+      height: 400px;
+      
+    }
+    #listimg{
+      height:300px;
+      border-radius: 25px;
+    }
+    #c1 h4{
+      padding:8px;
+      border-bottom:1px solid white;
+    }
+    #c1 p{
+      margin-top: 13px;
+    }
+    #c1{
+      margin-top: 13px;
+    }
+    .contact1 h5{
+      display:inline-block;
+    }

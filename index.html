@@ -1,0 +1,285 @@
+<html>
+    <head>
+        <title>
+            my school blog
+        </title>
+        <!--below three links, calls the bootstrap feautures these are features that enables your website to look appropriate irrespective of the size of the device it prevents your website from getting distorted when the device size is changed-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--code to link font awsome icons to the web page.-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+<!--line 11 12 13 are the links for importing google fonts-->
+<link rel="stylesheet" href="style.css"> <!--links html with css-->
+    </head>
+    <body>
+        <nav class="navbar-inverse" style="position: sticky;top: 0;z-index: 99999;background-color: green;">
+            <!--position sticky fixes the position of the menu on top. navbar-inverse is a bootstrapping feature which will convert the menu to a button when the device size is reduced.--> 
+            <div class="navbar-header"> <!--It allocates approximately 150px to the  top left of the navbar to wrap the navbar-brand and allow the brand name or logo to make use of the entire area on click or hover. on clicking the navbar brand the website restores to the home section-->
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">  <!--navbar-toggle adds the expand and the collapse feature of the button with three icon bars data toggle enables the toggling feature data-target will redirect the items to the ids of the menun in line number 30-->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Rocklin Academy Turnstone</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="nav navbar-nav navbar-right"> <!--ul stands for unordered list a stands for anchor tag that consists of href which will hold the target link or the location-->
+                    <li class="links"><a href="#welcome">Home</a></li>
+                    <li class="links"><a href="#campus">Campus</a></li>
+                    <li class="links"><a href="#ach">Acheivements</a></li>
+                    <li class="links"><a href="#books">Books</a></li>
+                    <li class="links"><a href="#classes">Classes</a></li>
+                    <li class="links"><a href="#contact">Contact</a></li>
+       
+                </ul>
+            </div>
+        </nav>
+        <!--**************************************************************************************-->
+        <marquee onmouseover="this.stop()" onmouseout="this.start()">***feel free to ask queries about my school on school@gmail.com***</marquee> <!--creates the announcement that floats on top-->
+                 <!--**************************************************************************************-->
+                 <div class="carousel slide" id="mycarousel"> <!--code for the carousel slides-->
+                    <div class="carousel-inner"> <!-- content of the carousel-->
+                        <div class="item active"> <!--class item active indicates the first slide that will show up when the website is launched-->
+                            <center>
+                                <img src="https://play-lh.googleusercontent.com/Ocmp0LKnD9RlP1Khrd0PxThuWe3qjD9lXGRGcbyB_fuwWcfyZWLre8RkYDyYdy53EZs" class="img-responsive">
+                                <!--allows img-responsive allows the img to adjust itself to different sizes of the device. and it is also a bootsrap feature-->
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img src="https://3.files.edl.io/4172/20/06/05/152836-fc6906c0-d329-4394-8321-a9d5686724c7.jpeg" class="img-responsive">
+                                
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyLAW7LaTGzHafxxmguqK2YTkvWmsV5WIZg&usqp=CAU" class="img-responsive">
+                                
+                            </center>
+                        </div>
+                        <div class="item">
+                            <center>
+                                <img src="http://rosevillelifestyleguide.com/wp-content/uploads/2014/06/rocklinacademyfundraiser.jpg" class="img-responsive">
+                                
+                            </center>
+                        </div>
+                        
+
+                    </div>
+                   <!--below 2 codes creates the arrow keys for the carousel slides glyph icon creates the bootstrapping icon-->
+            <a href="#mycarousel" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a href="#mycarousel" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    
+                
+                </div>
+<div class="container">
+    <div class="page-header" id="campus" >
+        <h2>Campus</h2>
+        <div class="row"> <!--arranges the three pictures in a row-->
+            <div class="pic">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVryNHbXytNbq80WfT74_j5CAmGlR4mrN77w&usqp=CAU" class="img-responsive">
+                <h4 class="text-capitalize"> <kbd>School Play Area</kbd></h4> <!--kbd creates the black background for the text, and text - capitalize changes the first of all the words in a sentence to uppercase letters-->
+                <hr>
+                <h5 class="text-success text-left">Was established in 2017</h5> <!--Text succsess gives a green color to the text-->
+                <p class="text-muted text-left" >School include a multi-purpose hard court area that has line markings for netball, tennis and basketball</p><br> <!--text muted gives a gray color to the text-->
+
+            </div>
+            <div class="pic">
+                <img src="https://pbs.twimg.com/media/DVUXqfIVMAAQ_uo.jpg" class="img-responsive">                
+                <h4 class="text-capitalize"> <kbd>Classroom</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left">Was established in 2017</h5> 
+                <p class="text-muted text-left" >The school was built to cater for 430 students with the capability to increase this through the use of portable classrooms.</p>
+
+            </div>
+            <div class="pic">
+                <img src="https://nationalblueribbonschools.ed.gov/awardwinners/winning/asset/2016/school_photos/16ca281pu_rocklin_academy.jpg" class="img-responsive">
+                                <h4 class="text-capitalize"> <kbd>School Play Area</kbd></h4>
+                <hr>
+                <h5 class="text-success text-left">Was established in 2017</h5> 
+                <p class="text-muted text-left" >School include a multi-purpose hard court area that has line markings for netball, tennis and basketball</p><br>
+
+            </div>
+        </div>
+    </div>
+    <!--**********************************code for the dropdowns********************************************-->
+    <div class="page-header" id="ach"> 
+        <h2>Acheivements</h2>
+    </div>
+    <div class="dropdown" data-toggle="collapse" data-target="#a1"> <!--data toggle collapse enables the toggling feature of the dropdown which expands and collapses after a click-->
+<span class="glyphicon glyphicon-film"></span>Inter School Debate On Environment Pollution <i class="fa fa-sort-desc"></i>
+<!--creates 2 icons one before the text (which is the film) and the other one end of the text for the dropdown to collapse and toggle (which is the arrow)-->
+    </div>
+    <div class="collapse  " id="a1"> <!--bg info is a bootstrapping class that creates a blue background-->
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"><!--the coulumn design class allows the image to occupy 1/4 (3 columns) of the screen when it is large medium or (small 12 coulumns) you have to imagine the screen is divided into twelve imaginary coulumns-->
+    <img src="https://i.postimg.cc/KztDSHbx/se1.jpg" class="img-responsive img-thumbnail">
+</div>
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12"> <!--the coulumn design class allows the text to occupy 3/4 (9 columns) of the screen when it is large medium or small-->
+    <h5 class="text-danger">Won first prize in inter school debate on environment pollution</h5> <!--TEXT DANGER GIVES A RED COLORED TEXT-->
+    <span class="glyphicon glyphicon-star text-success"></span> <!--the bootsrap class creates the star icon which is green in color-->
+    <span class="glyphicon glyphicon-star text-success"></span>
+    <span class="glyphicon glyphicon-star text-success"></span>
+    <span class="glyphicon glyphicon-star text-success"></span>
+    <span class="glyphicon glyphicon-star text-success"></span>
+<!--below is the text beside the image-->
+    <p>A local inter-school competition is a sporting activity taking place between schools from the same area - either as a one-off fixture or as part of a league. These competitions may act as qualifiers for county finals or can be run as developmental competitions or festival events to meet the needs of a local area</p> <br>
+
+</div>
+
+    </div>
+    <div class="dropdown" data-toggle="collapse" data-target="#a2">
+        <span class="glyphicon glyphicon-film"></span>Inter School Science Project Competition <i class="fa fa-sort-desc"></i>
+        
+            </div>
+            <div class="collapse bg-info" id="a2"> 
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="https://media2.giphy.com/media/xT5LMrjjW3meX9SXkY/giphy.gif" class="img-responsive img-thumbnail">
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+            <h5 class="text-danger">Won second price in inter school Science Project competition
+            </h5>
+            <span class="glyphicon glyphicon-star text-success"></span>
+            <span class="glyphicon glyphicon-star text-success"></span>
+            <span class="glyphicon glyphicon-star text-success"></span>
+            <span class="glyphicon glyphicon-star text-success"></span>
+            <span class="glyphicon glyphicon-star-empty text-success"></span>
+            <p>All the students till class 5 were noticed that our school is organising a science exhibition and the students interested in taking part in it can give their names to the respective science teachers. Cheryl gave a wonderful presentation on future transport and communications.</p>
+ <br>
+        
+        </div>
+        
+            </div>
+            <div class="dropdown" data-toggle="collapse" data-target="#a3"> <!--data-target is calling the content with the id  named a3 in line number 159-->
+                <span class="glyphicon glyphicon-film"></span>Inter School Soccer Competition<i class="fa fa-sort-desc"></i>
+                
+                    </div>
+                    <div class="collapse bg-info" id="a3"> 
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img src="https://media0.giphy.com/media/WrygAiBYn4wT4Kqfjr/giphy.gif
+                    " class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                    <h5 class="text-danger">Came second in inter school soccer competition
+                    </h5>
+                    <span class="glyphicon glyphicon-star text-success"></span>
+                    <span class="glyphicon glyphicon-star text-success"></span>
+                    <span class="glyphicon glyphicon-star text-success"></span>
+                    <span class="glyphicon glyphicon-star-empty text-success"></span>
+                    <span class="glyphicon glyphicon-star-empty text-success"></span>
+                    <p> School got the second postion the Under-14 Boys Inter-School Soccer Tournament organized by Leapstart in Carnabyrise School on 12th and 13th August 2020. Six teams from Landsdale had participated . Harry from Grade 5 ) Scored hatrick and Kieran Adams of Grade 6 scored a solitary goal to seal the match. With this Greenwood high has qualified to play Leapstart Nationals in coming month.</p>
+
+                    <br>
+                
+                </div>
+                
+                    </div>
+                    <!--******************************************************************************-->
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="books">
+        <h2>List of Books</h2>
+    </div>
+    <div class="book col-lg-4 col-md-4 col-sm-6 col-xs-6" data-toggle="modal" data-target="#b1"> <img src="https://www.qbd.com.au/img/products/0/9781922503008.jpg"id="im" class="img-responsive"><hr> <!--data-toggle flips between the pop up and the picture and data-target will call the content with the id named b1-->
+        <p class="text-primary">Happy as a hog out of mud</p>
+        <!--code for the picture cover screen and the text line 180-181-->
+    </div>
+    <!--modal code creates a pop up on the screen-->
+    <div class="modal fade" id="b1"> <!--modal fade fades the backgraound screen when the pop up appears-->
+        <div class="modal-dialog"> <!--creates the modal pop up on the screen-->
+<div class="modal-content"> <!--consists of the header and the modal body-->
+    <div class="modal-header"> <!--consists of the title and the button with the cross(&times)-->
+        <button class="close" data-dismiss="modal">&times;</button> <!--&times is the cross that is used to dismiss the modal-->
+        <h4 class="modal-title">HAPPY AS A HOG OUT OF MUD</h4>
+    </div>
+    <div class="modal-body"> <!--consists  of the image and the p tag with the text and the best buy link-->
+        <img src="https://www.qbd.com.au/img/products/0/9781922503008.jpg" class="img-responsive img_modal">
+        <p class="p_modal">Warthogs LOVE to play in mud. But not Charlieâ€¦ Charlesworth Oinkington is a sophisticated gentle-hog who would rather sip tea, go bird watching and read poetry.
+            </p> <br>
+<a href="https://www.qbd.com.au/happy-as-a-hog-out-of-mud/sean-e-avery/9781922503008/?gclid=Cj0KCQiAraSPBhDuARIsAM3Js4pD6OBDdcPkqYavvr34ys9SnslbypxsxL-cdKbsBerKO5s1Ejdu4b8aArFKEALw_wcB" target="_blank">BEST BUY LINK
+</a> <!--target=_blank opens the link in a different tab-->
+    </div>
+</div>
+        </div>
+    </div>
+    <div class="book col-lg-4 col-md-4 col-sm-6 col-xs-6" data-toggle="modal" data-target="#b2"> <img src="https://cdn-o.fishpond.com.au/0058/766/992/1568497305/original.jpeg"id="im" class="img-responsive"><hr>
+        <p class="text-primary">Harold and Grace</p>
+        <!--code for the picture cover screen and the text line 180-181-->
+    </div>
+    <!--modal code creates a pop up on the screen-->
+    <div class="modal fade" id="b2">
+        <div class="modal-dialog">
+<div class="modal-content">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">HAROLD AND GRACE</h4>
+    </div>
+    <div class="modal-body">
+        <img src="https://cdn-o.fishpond.com.au/0058/766/992/1568497305/original.jpeg" class="img-responsive img_modal">
+        <p class="p_modal">Sean E. Avery is the author of All Monkeys Love Bananas. A former freelance journalist for the Eastern Province Herald, he is also an artist whose sculptures are featured in prominent galleries around Perth, Australia, as well as in well-known landmarks and the Ripley's Believe It or Not! museums in Baltimore and Los Angeles. He lives in wa.<br> <a href="https://www.fishpond.com.au/Books/Harold-and-Grace-Sean-E-Avery/9781925162295?utm_source=googleps&utm_medium=ps&utm_campaign=AU&gclid=Cj0KCQiAraSPBhDuARIsAM3Js4r3GvuwMox3TVLNDheZJYfbCCE_h9ykUUE_ZCtxsiSFb141SFnWTScaAnjwEALw_wcB" target="_blank">BEST BUY LINK</b></a> </p>
+    </div>
+</div>
+        </div>
+    </div>
+    <div class="book col-lg-4 col-md-4 col-sm-6 col-xs-6" data-toggle="modal" data-target="#b3"> <img src="https://i.ebayimg.com/images/g/~IcAAOSwAC1hAUq8/s-l1600.jpg" id="im"  class="img-responsive"><hr>
+        <p class="text-primary">All monkeys love bannanas</p>
+        <!--code for the picture cover screen and the text line 180-181-->
+    </div>
+    <!--modal code creates a pop up on the screen-->
+    <div class="modal fade" id="b3">
+        <div class="modal-dialog">
+<div class="modal-content">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">All monkeys love bannanas</h4>
+    </div>
+    <div class="modal-body">
+        <img src="https://i.ebayimg.com/images/g/~IcAAOSwAC1hAUq8/s-l1600.jpg" class="img-responsive img_modal">
+        <p class="p_modal">All monkeys love bananas! For breakfast for dinner for snacks and for lunch they all crave bananas, munch, munch, munch. Well, maybe not all monkeys...A very funny picture book about one poor monkey who can't stand to see another banana..<br> <a href="https://www.ebay.com.au/itm/393876035676?chn=ps&_ul=AU&_trkparms=ispr%3D1&amdata=enc%3A1S-2KideET0uJAp3rktjd2Q91&norover=1&mkevt=1&mkrid=705-139619-5960-0&mkcid=2&itemid=393876035676&targetid=1395287513209&device=c&mktype=pla&googleloc=9070557&poi=&campaignid=14475531263&mkgroupid=125379166974&rlsatarget=pla-1395287513209&abcId=9300653&merchantid=510834868&gclid=Cj0KCQiAraSPBhDuARIsAM3Js4rJUyqeuyiCDi-m2O1V-w2VNYCmBWfkUfbFbSWDFnin4kjRWQ13joYaAuI6EALw_wcB" target="_blank">BEST BUY LINK</b></a> </p>
+    </div>
+</div>
+        </div>
+    </div>
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="classes">
+        <h2>Classes</h2>
+    </div>
+    <ul class="list-group" >  <!--ul stands for unordered list which creates a list of data one below each other and li stands for list tag which is a part of the unordered list.-->
+        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12" id="c1">
+            <h4>School Play Space Classroom</h4>
+            <img id="listimg"src="https://www.det.wa.edu.au/schoolsonline/display_image?schoolID=5845&type=SCH_PHOTO&suffix=LARGE07" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >Carnaby Rise Primary School is located in Landsdale surrounded by natural bushland. The facilities are state of the art and are based on an ecologically sustainable design principle with an emphasis on reducing energy consumption. The school was built to cater for 430 students with the capability to increase this through the use of portable classrooms. Our student population is now approximately 700 students and several classrooms have been added to the site.The buildings include an Early Education Learning area with a naturescape playground where our young students can explore and imagine within a natural environment. The remainder of the school consists of three teaching blocks with four classrooms per block and a common learning area that can be used for creative activities and large group work. Twelve transportable classrooms have now been added to the school to accommodate our growing numbers. We have a dedicated Science Room and Art Room complete with a kiln.</p>
+
+
+        </li>
+        <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12" id="c1">
+            <h4>School activities</h4>
+            <img src="https://images.perthnow.com.au/publication/C-1729115/f97579a444d824db83a57e9c6ce6f668d36e1f11.jpg?imwidth=668&impolicy=pn_v3" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" id="listimg" >
+
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >The undercover area has a canteen which is capable of catering to large groups. It is equipped with a PA system and projector screen for assemblies and special events. At the heart of our school is the library that is stocked with an assortment of fiction and non-fiction books that are of high interest to all students. This fantastic space has been configured to allow students to enjoy the solitude of reading while also providing an opportunity to be creative in the maker space area. A weekly library visit is incorporated into the class timetable. Students are welcome to exchange books and use the library outside of their allocated class time. The library is also open most lunchtimes. Students from Kindy to Year 2 are able to borrow 2 books and Year 3-6 may borrow 3 books. Extra items can be loaned by arrangement with Mrs Moore, the library officer. To ensure care for borrowed books, students will need to bring their library bag for borrowing. The grounds of Carnaby Rise Primary School include a multi-purpose hard court area that has line markings for netball, tennis and basketball. The oval is a shared community space with AFL goals and cricket nets. The garden has been landscaped with flora native to the area and although Carnaby Rise Primary School is a multi-level site it is completely wheelchair accessible..</p>
+
+                
+
+
+        </li>
+    </ul>
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contact">
+        <h2>Contact Us</h2>
+    </div>
+    <div class="img-responsive col-lg-9 col-md-9 col-sm-12 col-xs-12"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3109.288900234217!2d-121.28945688465251!3d38.802933179585416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b1f174e242995%3A0xaadc616ca3deb083!2sRocklin%20Academy%20Turnstone!5e0!3m2!1sen!2sus!4v1655336945614!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div> <!--Iframe is used for embedding a website or third party data to the website-->
+<div>
+    <img src="https://i.postimg.cc/RZMSc6hR/sp.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-12col-xs-12">
+<h3>Principal Name:</h3>
+<h4>Ana Sotka</h4>
+<div class="contact1">
+    <a href="mailto:name@gmail.com?subject=hello"><i class="fa fa-envelope"></i>&nbsp;&nbsp;<h5>school@gmail.com</h5></a>
+    <br>   <!--fa fa is used for font awsome icons imported in the website-->
+    <!--nbsp stands for no breaking space-->
+    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i>&nbsp;&nbsp;<h5>My Instagram</h5></a>  <br>
+    <a href="#"><i class="fa fa-phone-square"></i>&nbsp;&nbsp;<h5>111-111-1111</h5></a>  
+
+</div>
+</div>
+</div>
+    </body>
+</html>
